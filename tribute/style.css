@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: white;
+  padding: 10px;
+}
+
+#main{
+  background-color: #E4E2E1;
+}
+
+#title {
+  background-color: #E4E2E1;
+  padding: 10px;
+  text-align: center;
+  color: #4A403A;
+}
+#img-div {
+  margin: 0 auto;
+  border: 1px, solid, black;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+  height: auto;
+  max-width: 50vw;
+}
+
+#img-caption {
+  color: black;
+  padding: 25px;
+  font-weight: bold;
+}
+
+#tribute-info{
+  color: #4A403A;
+  background-color: #E4E2E1;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #4A403A; 
+}
+
+a:hover{
+  color: green;
+}
