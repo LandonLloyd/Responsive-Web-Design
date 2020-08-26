@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FCC Technical Documentation</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header id="nav-header">HTML/CSS</header>
+
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <br />
+        <a href="#What_You_Should_Know" class="nav-link"
+          >What You Should Know</a
+        >
+        <br />
+        <a href="#Hello_World" class="nav-link">Hello World</a>
+        <br />
+        <a href="#Selecting_Elements" class="nav-link">Selecting Elements</a>
+        <br />
+        <a href="#Making_an_Element" class="nav-link">Making An Element</a>
+        <br />
+        <a href="#Linking_HTML_and_CSS" class="nav-link">Linking HTML and CSS</a>
+      </nav>
+      <div id="main-work">
+        
+      
+      <section id="Introduction" class="main-section">
+        <header>Introduction</header>
+        <p>
+          HTML is a markup language. It does not contain any logic so therefore
+          it is not technically a programming language. But every page on the
+          internet uses HTML as the base of the page so it is still good to
+          learn. HTML is all based on tags. There is always an opening tag that
+          has an opening bracket and a closing bracket after the tags name.
+        </p>
+        <p>
+          CSS or Cascading Style Sheets is a language used to style your HTML.
+          Once again CSS is not technically a programming lanugage, but it is
+          also used on almost every good looking webpage on the internet. The
+          basic principle of CSS is that it defines an element and then a style.
+          For example if I wanted a header with the text green I would say:
+        </p>
+        <pre><code>header{
+color: green;
+          }</code></pre>
+      </section>
+
+      <section class="main-section" id="What_You_Should_Know">
+        <header>What You Should Know</header>
+        <ul>
+          <li>You are in luck, no other coding knowledge is necessary!</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <p>
+          Hello World projects are very simple projects. There is usually Hello
+          World projects for every language. Most of the projects in web
+          development is displaying text. Here are some examples:
+        </p>
+        <ul>
+          <li>HTML H1 tags displaying Hello World</li>
+          <li>
+            Javascript Hello World Project:
+            <pre><code>console.log("Hello World");</code></pre>
+          </li>
+        </ul>
+        <p>
+          This would display Hello World in the webpages console.
+        </p>
+      </section>
+
+      <section id="Selecting_Elements" class="main-section">
+        <header>Selecting Elements</header>
+        <p>
+          In CSS before styling a piece of the webpage you must call the element
+          that you want to style. You can choose any element. You can do this by
+          ID by adding a # before the name of the element you want to style like
+          this:
+        </p>
+        <pre><code>#myId{
+what I want styled: style;
+          }</code></pre>
+
+        <ul>
+          <p>
+            Many things can be added as a style including:
+          </p>
+          <li>Padding: The amount of space an element has around it.</li>
+          <li>
+            Color: The color selector basically acts as a font-color selector.
+          </li>
+          <li>
+            Background-color: This will change the color of your background.
+          </li>
+          <li>
+            Text-align: This value will change where and how the text is
+            aligned.
+          </li>
+        </ul>
+      </section>
+
+      <section id="Making_an_Element" class="main-section">
+        <header>Making an Element</header>
+        <p>
+          To make an element in HTML you need to start the tag and end the tag.
+          To start the tag you would make two angle brackets with the element
+          name inside the brackets. To close the element it is a bit different.
+        </p>
+        <p></p>
+        It appears with the two angle brackets from before but instead you now
+        make a forward slash before you say the element name agein.
+      </section>
+
+      <section id="Linking_HTML_and_CSS" class="main-section">
+        <header>Linking HTML and CSS</header>
+        <p>
+          To make the CSS actually work on HTML elements they must be linked.
+          There are three types of ways to write CSS.
+        </p>
+        <ul>
+          <li>Inline</li>
+          <li>Internal</li>
+          <li>External</li>
+        </ul>
+        <p>
+          Inline styling is writing the CSS in the HTML tag you want to style.
+          Internal CSS is defined by the style tags and then writing the CSS
+          inside of the style tags. To write external CSS you must make a
+          separate CSS file in the format (anyname).css so the computer knows it
+          is a CSS file. When linking the code you use the link tag. Inside this
+          link tag you need to define the relationship of the document:
+        </p>
+        <pre><code>rel="stylesheet"</code></pre>
+        <p>and you need to tell the computer the link to the CSS file:</p>
+        <pre><code>href="(yourname).css"</code></pre>
+      </section>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
