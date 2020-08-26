@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #ffe6e6;
+}
+
+@media (min-height: 800px) {
+  iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+iframe {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ff3333;
+}
+
+.price {
+  padding: 25px;
+  display: grid;
+  border: 1px solid #ff3333;
+  width: 200px;
+  height: auto;
+  text-align: center;
+  background-color: white;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.price h3 {
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav-links {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#header {
+  position: fixed;
+  padding: 10px;
+}
+
+#header-img {
+  width: 70px;
+  height: auto;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: #ff3333;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::placeholder {
+  color: black;
+}
+
+form {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+}
