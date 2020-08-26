@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>FCC Landing Page</title>
+  </head>
+  <body>
+    <div id="top">
+      <header id="header">
+        <img
+          id="header-img"
+          src="https://cdn.glitch.com/f7ae07c2-5926-421b-b06a-f8043d579ab2%2Fdiamondback.png?v=1587505324632"
+        />
+        <nav id="nav-bar">
+          <a class="nav-link" href="#header">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </nav>
+      </header>
+    </div>
+    <br /><br /><br /><br />
+    <div id="about">
+      <iframe
+        id="video"
+        width="700"
+        height="400"
+        src="https://www.youtube.com/embed/arwxbuYcRvA"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <form id="form" action="https://www.freecodecamp.org/email-submit">
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Enter Email"
+        required
+      />
+      <input
+        id="submit"
+        type="submit"
+        name="submit"
+        action="https://www.freecodecamp.org/email-submit"
+        method="GET"
+      />
+    </form>
+
+    <div id="pricing">
+      <div id="price1" class="price">
+        <h3>
+          Beginner Bike
+        </h3>
+        <p>
+          A beginner bike is usually a hardtail with a suspension fork. One of
+          these will run about $300.
+        </p>
+      </div>
+      <div id="price2" class="price">
+        <h3>
+          Hardtail
+        </h3>
+        <p>
+          A hardtail is a bike with only front wheel suspension. Hardtails if
+          used correctly used can be lots of fun. The range from $400 to about
+          $3,000.
+        </p>
+      </div>
+
+      <div id="price3" class="price">
+        <h3>
+          Full-Suspension
+        </h3>
+        <p>
+          Like the name implies this bike has suspension on both wheels. These
+          bikes can range from about $400 to about $12,000.
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
