@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FCC Survey Form</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="main-header">
+        <h1 id="title">Coding Survey Form</h1>
+        <p id="description">Take this survey to evaluate your coding skills!</p>
+      </div>
+
+      <div id="form">
+        <form id="survey-form">
+          <label for="name" id="name-label">Enter Your Name:</label>
+          <input
+            id="name"
+            type="name"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+          />
+          <br />
+          <label for="email" id="email-label">Enter your Email Address:</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter Your Email"
+            required
+          />
+          <br />
+          <label for="age" id="number-label">Enter your Age: (optional)</label>
+          <input
+            id="number"
+            name="age"
+            type="number"
+            placeholder="Enter Age"
+            min="0"
+            max="100"
+          />
+          <br />
+          <label for="dropdown">What type of Programmer are you?</label>
+          <select id="dropdown" name="dropdown" placeholder="Type of Learner">
+            <option value="student">Student</option>
+            <option value="career switch">Career Switch</option>
+            <option value="hobbyist">Hobbyist</option>
+            <option value="full-time">Full Time Developer</option>
+            <option value="looking-for-job">Looking for Dev Job</option>
+          </select>
+          <br />
+          <p>Would you be able to teach a friend to code?</p>
+          <input type="radio" value="yes" name="yes" />
+          <label for="yes">Yes</label>
+          <br />
+          <input type="radio" value="yes" name="yes" />
+          <label for="yes">No</label>
+          <br />
+          <input type="radio" value="yes" name="yes" />
+          <label for="yes">The Basics</label>
+          <br />
+          <label for="dropdown2"
+            >How Many Years of Experience do You Have?</label
+          >
+          <select
+            id="secondDropdown"
+            name="dropdown2"
+            placeholder="Select An Option"
+          >
+            <option value="0-1">0-1</option>
+            <option value="1-3">1-3</option>
+            <option value="3-5">3-5</option>
+            <option value="5-10">5-10</option>
+            <option value="10-20">10-20</option>
+            <option value="20+">20+</option>
+          </select>
+          <br />
+          <br />
+          <p>
+            What type of coding do you enjoy most/specialize in?
+          </p>
+          <input type="checkbox" value="frontEnd" name="frontEnd" />
+          <label for="frontEnd">Front-End</label>
+          <br />
+          <input type="checkbox" value="backEnd" name="backEnd" />
+          <label for="backEnd">Back-End</label>
+          <br />
+          <input type="checkbox" value="data" name="data" />
+          <label for="data">Data Visualization</label>
+          <br />
+          <input type="checkbox" value="game" name="game" />
+          <label for="game">Game Dev</label>
+          <br /><br />
+          <textarea id="textarea" placeholder="other comments"></textarea>
+          <br />
+          <button id="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
